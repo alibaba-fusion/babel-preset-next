@@ -21,7 +21,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "precommit": "tnpm run lint"
+    "precommit": "npm run lint"
   },
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
