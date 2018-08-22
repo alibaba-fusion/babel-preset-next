@@ -22,5 +22,5 @@ npm install @alifd/babel-preset-next --save-dev
 * babel-plugin-transform-runtime
 
 ## Options
-* modules: from [babel-preset-env](https://github.com/babel/babel-preset-env#modules), if not set it, will append babel-plugin-add-module-exports to preset
+* modules: from [babel-preset-env](https://github.com/babel/babel-preset-env#modules), if not set it, will append [babel-plugin-add-module-exports](https://github.com/59naga/babel-plugin-add-module-exports) to preset
 * runtime: whether or not use [babel-plugin-transform-runtime](https://babeljs.io/docs/plugins/transform-runtime/), default value is false
